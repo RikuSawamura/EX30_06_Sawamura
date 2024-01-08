@@ -8,7 +8,7 @@ namespace Ex30_2023_template
 {
     internal class Vehicle : Artifact
     {
-        public Vehicle(string n = null, float w = 0, float h = 0, float d = 0, float wei = 0, float b) : base(n, w, h, d, wei, b)
+        public Vehicle(string n = null, float w = 0, float h = 0, float d = 0, float wei = 0) : base(n, w, h, d, wei)
         {
 
         }
