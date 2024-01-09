@@ -10,11 +10,12 @@ namespace Ex30_2023_template
     /// <summary>
     /// 労働者
     /// </summary>
-    internal class Worker:Person
+    internal class Worker : Person
     {
-        public Worker(DateTime bd, string n, float w = 0, float h = 0, float d = 0, float wei = 0,float life = 0) : base(bd, n, w, h, d,wei,life)
+        readonly int income;
+        public Worker(DateTime bd, string n, float w = 0, float h = 0, float d = 0, float wei = 0, float life = 0, int income = 0) : base(bd, n, w, h, d, wei, life)
         {
-
+            this.income = income;
         }
     }
 }

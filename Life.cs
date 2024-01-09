@@ -30,7 +30,19 @@ namespace Inheritance
         }
         public int Age()
         {
-            return DateTime.Now.Year - this._birthDay.Year;
+            int age = DateTime.Now.Year - this._birthDay.Year;
+            if (_birthDay.Month == DateTime.Now.Month)
+            {
+                if (_birthDay.Day > DateTime.Now.Day)
+                {
+                    age -= 1;
+                }
+            }
+            else if (_birthDay.Month > DateTime.Now.Month)
+            {
+                age -= 1;
+            }
+            return age;
         }
         public bool BirgthdayJudge()
         {
@@ -38,6 +50,15 @@ namespace Inheritance
                 return true;
             else
                 return false;
+        }
+        static public void SelfIntroduction(Life l)
+        {
+            Console.WriteLine($"名前は{l._name}");
+            Console.WriteLine($"{l.Age()}" + "歳" + "\n今日が誕生日:" + $"{l.BirgthdayJudge()}");
+        }
+        public virtual void SelfIntroduction()
+        {
+            SelfIntroduction(this);
         }
     }
 }

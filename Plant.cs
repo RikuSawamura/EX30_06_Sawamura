@@ -11,8 +11,10 @@ namespace Inheritance
     /// </summary>
     class Plant : Life
     {
-        public Plant(DateTime bd, string n, float w = 0, float h = 0, float d = 0, float wei = 0,float life = 0) : base(bd, n, w, h, d, wei,life)
+        readonly string plantkinds;
+        public Plant(string plantkinds ,DateTime bd, string n, float w = 0, float h = 0, float d = 0, float wei = 0,float life = 0) : base(bd, n, w, h, d, wei,life)
         {
+            this.plantkinds = plantkinds;
         }
     }
 }
