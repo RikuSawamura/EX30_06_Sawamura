@@ -34,7 +34,7 @@ namespace Inheritance
         }
         public bool BirgthdayJudge()
         {
-            if (_birthDay == DateTime.Today)
+            if (_birthDay.Month == DateTime.Today.Month && _birthDay.Day == DateTime.Today.Day)
                 return true;
             else
                 return false;
