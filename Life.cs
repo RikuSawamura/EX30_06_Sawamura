@@ -24,10 +24,11 @@ namespace Inheritance
         }
         public Life(DateTime bd, string n, float w = 0, float h = 0, float d = 0, float wei = 0, float life = 0) : base(n, w, h, d, wei)
         {
+            this._name = n;
             this._birthDay = bd;
             this.lifespan = life;
         }
-        public uint Age()
+        public int Age()
         {
             return DateTime.Now.Year - this._birthDay.Year;
         }

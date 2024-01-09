@@ -7,7 +7,7 @@ namespace Inheritance
         static void Main(string[] args)
         {
             Person person = new Person(DateTime.Now, "デジタル太郎", 0.5f, 160f, 50f);
-            Console.WriteLine(Person.Age() + "歳", "誕生日かどうか:" + Person.BirgthdayJudge()) ;
+            Console.WriteLine(person.Age() + "歳", "誕生日かどうか:" + person.BirgthdayJudge()) ;
         }
     }
 }
