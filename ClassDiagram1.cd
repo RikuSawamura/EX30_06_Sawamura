@@ -15,7 +15,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Inheritance.Life">
-    <Position X="2.75" Y="6" Width="1.5" />
+    <Position X="2.75" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAIAAAAAAAAAAAQEQAAAQAAAAIAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Life.cs</FileName>
@@ -50,7 +50,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30_2023_template.Insect" Collapsed="true">
-    <Position X="7.25" Y="7" Width="1.5" />
+    <Position X="7.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Insect.cs</FileName>
@@ -64,7 +64,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30_2023_template.Cat" Collapsed="true">
-    <Position X="7.25" Y="8" Width="1.5" />
+    <Position X="7.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Cat.cs</FileName>
@@ -106,7 +106,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Ex30_2023_template.Bike" Collapsed="true">
-    <Position X="7.75" Y="3.25" Width="1.5" />
+    <Position X="7.75" Y="3" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Bike.cs</FileName>
